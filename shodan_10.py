@@ -12,5 +12,14 @@ def shodan_search():
     print ('Numero de ocorrencias:', shodan_result['total'] )
 
 
+    print ('.... TOP 100 ....')
+
+    count = 1
+
+    for _result in shodan_result['matches']:
+        print ('[+] - Possivel alvo',count, 'IP:', _result['ip_str'])
+        count = count + 1
+
+
 shodan_search()
 
