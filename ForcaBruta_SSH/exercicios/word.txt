@@ -1,0 +1,16 @@
+user
+ninja
+xninja
+batman
+postgress
+123456789
+service
+123
+1234
+12345
+msfadmin
+admin
+toor
+root
+tomcat
+tomcat5
